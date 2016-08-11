@@ -6,7 +6,7 @@ class UserTest < ActiveSupport::TestCase
   # end
   #
   def setup
-    @user = User.new(name: "nonylene", email: "nonylene@example.com")
+    @user = User.new(name: "nonylene", email: "nonylene@example.com", password: "hogehoge")
   end
 
   test "should be vaild" do
